@@ -8,7 +8,7 @@ h1 {
 
 body {
   background-color: black;
-  background-image: url("../../public/images/black.jpg");
+  background-image: url("../../public/images/beatbox.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -164,7 +164,7 @@ body {
 }
 
 canvas{
-  background-color: white;
+  background-color: black;
   height: 50%;
   width: 50%;
   border-radius: 30%;

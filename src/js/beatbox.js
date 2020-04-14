@@ -127,4 +127,15 @@ $(document).ready(function(){
 		
 		paper.view.onKeyDown({key: 9});
     });
+
+    $(".box").on("click", function()
+    {
+        $(this).attr("disabled","disabled");
+        doWork();
+    });
 });
+
+function doWork()
+{
+    setTimeout('$(".box").removeAttr("disabled")',500);
+}

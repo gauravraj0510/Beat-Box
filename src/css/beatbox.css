@@ -1,9 +1,11 @@
 h1 {
   color: white;
-  font-size: 85px;
+  font-size: 7vw;
   font-family: Oswald;
-  letter-spacing: 6px;
+  letter-spacing: 0.525vw;
   text-align: center;
+  margin-top: 10px; 
+  margin-bottom: 20px;
 }
 
 body {
@@ -166,11 +168,11 @@ body {
 
 canvas{
   background-color: black;
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 60%;
   border-radius: 30%;
-	margin-right: 25%;
-	margin-left: 25%;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 #loop {
   background-color: #2e5c39;
